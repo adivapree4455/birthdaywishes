@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: auto;
+    width: 100%;
+    background-color: #111;
+    position: relative;
+    padding-bottom: 5%;
+
+}
+
+.elem{
+    height: 320px;
+    width: 100%;
+    border-bottom: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.elem h1{
+    font-size: 3vw;
+    position: relative;
+    z-index: 9;
+    mix-blend-mode: difference;
+    padding: 10px 10px;
+}
+
+.elem img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    position: absolute;
+    /* transform: translate(-50%,-50%); */
+    opacity: 0;
+    transition: all linear 0.5s;
+}
+
+#page1{
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(20, 21, 21);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+#page1 button{
+    padding: 20px 50px;
+    border-radius: 20px;
+    background: orangered;
+    border: 2px solid orangered;
+    cursor: pointer;
+
+}
+
+#page1 button:hover{
+    background-color: greenyellow;
+}
+
+#page1 button a{
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#page1 button a:hover{
+    color: orangered;
+    font-size: 2.5vw;
+}
+
+.back-gif img{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 0%;
+    left: 80%;
+}
+
+.back-gif1 img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    border-radius: 10px;
+    top: 4%;
+    left: 5%;
+
+}
